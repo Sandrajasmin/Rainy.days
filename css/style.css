@@ -23,6 +23,17 @@ h1 {
   font-style: bold;
   font-size: 30px;
 }
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #0b3a40;
+  }
+
 .inner {
   width: 480px;
   margin: 0% auto;
@@ -40,9 +51,14 @@ h1 {
   display: inline;
   list-style-type: none;
   padding-bottom: 12px;
-  padding-left: 25px;
+  padding-left: 40px;
+  padding-right: 36px;
   font-family: "Hind Guntur", sans-serif;
   font-size: 12px;
+}
+
+.icon {
+    padding-right: 20px;
 }
 
 .herobanner {
@@ -101,7 +117,9 @@ h1 {
 }
 
 .flex-item {
-  background-image: url(/img/productmobile.png);
+  background-image: url(/img/product1.png);
+  background-size: cover;
+  background-position: 45% 60%;
   width: 217px;
   height: 279px;
   position: relative;
@@ -114,23 +132,26 @@ h1 {
   color: #ffff;
   font-family: "Hind Guntur", sans-serif;
   font-size: 20px;
-  letter-spacing: 10px;
+  font-weight: lighter;
+  letter-spacing: 17px;
   position: absolute;
   top: 70%;
-  left: 50%;
+  left: 55%;
   transform: translate(-50%, -50%);
 }
 
 .subtext {
-  width: 172px;
+  width: 217px;
   font-family: "Mulish", sans-serif;
   font-size: 12px;
   text-align: center;
   margin-top: 300px;
+  
 }
 
 .flex-item2 {
-  background-image: url(/img/product2mobile.png);
+  background-image: url(/img/product2.png);
+  background-size: cover;
   width: 217px;
   height: 279px;
   position: relative;
@@ -145,38 +166,43 @@ h1 {
 }
 
 .flex-item3 {
-  background-image: url(/img/product3mobile.png);
-  width: 173px;
-  height: 279px;
-  position: relative;
-  opacity: 0.8;
-  margin-top: 33px;
-  margin-right: 10px;
+    background-image: url(/img/product3.png);
+    background-size: cover;
+    background-position: 45% 60%;
+    width: 217px;
+    height: 279px;
+    position: relative;
+    opacity: 0.8;
+    margin-top: 33px;
+    margin-right: 10px;
 }
 
 .flex-item4 {
-  background-image: url(/img/product4mobile.png);
-  width: 173px;
-  height: 279px;
-  position: relative;
-  opacity: 0.8;
-  margin-top: 33px;
+    background-image: url(/img/product4.png);
+    background-size: cover;
+    background-position: 45% 60%;
+    width: 217px;
+    height: 279px;
+    position: relative;
+    opacity: 0.8;
+    margin-top: 33px;
+    margin-right: 10px;
 }
 
 .text2 {
   color: #ffff;
   font-family: "Hind Guntur", sans-serif;
   font-size: 20px;
-  letter-spacing: 3px;
+  letter-spacing: 10px;
   position: absolute;
   top: 70%;
-  left: 50%;
+  left: 52%;
   transform: translate(-50%, -50%);
 }
 
 .newsletter {
   background-image: linear-gradient(to right, #1c5e69, #0b3a40);
-  width: 390px;
+  width: 480px;
   height: 170px;
   margin-top: 80px;
   padding-top: 50px;
@@ -217,19 +243,18 @@ h1 {
 }
 
 .advert {
-  width: 390px;
+  width: 100%;
 }
 
 .footer {
-  width: 390px;
+  width: 480px;
   height: 56px;
-  border: 1px solid hotpink;
+  margin-top: 20px;
 }
 
 .logo2 {
-  width: 50px;
-  height: 19px;
-  margin-left: 30px;
+  width: 60px;
+  margin-left: 20px;
   margin-right: 64px;
 }
 
@@ -241,20 +266,15 @@ h1 {
 .footertext {
   font-family: "Hind_Guntur", sans-serif;
   font-size: 8px;
-  margin-right: 40px;
+  margin-right: 60px;
+  margin-top: 22px;
 }
 
 .footertext1 {
   font-family: "Hind_Guntur", sans-serif;
   font-size: 6px;
   margin-right: 40px;
+  margin-top: 20px;
+
 }
 
-a:link {
-  color: black;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #0b3a40;
-}

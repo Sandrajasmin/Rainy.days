@@ -20,6 +20,8 @@
             <li class="shop"><a href="#">MEN</a></li>
             <li class="shop"><a href="#">WOMEN</a></li>
           </ul>
+          <a href="#"><img class="icon" src="https://img.icons8.com/small/16/000000/gender-neutral-user.png" alt="Profile"/></a>
+          <a href="#"><img class="icon" src="https://img.icons8.com/small/16/000000/shopping-cart.png" alt="shopping cart"/></a>
         </nav>
       </div>
     </header>
@@ -64,8 +66,8 @@
                   </div>
                 </div>
               </div>
+            </div>
             </section>
-        </div>
       <section>
         <div class="flex-container2">
           <div class="flex-item3">
@@ -87,41 +89,43 @@
           </div>
         </div>
       </section>
-      <section class="newsletter">
-        <form>
-          <div class="emailbox">
-            <label for="emailadress">Sign up for our newsletter</label><br />
-            <input
-              class="emailtext"
-              id="emailadress"
-              type="email"
-              size="27"
-              maxlength="64"
-              placeholder="Enter Email adress........."
-              pattern=".+@example.com"
-            />
-          </div>
-          <div>
-            <input class="submit" type="submit" value="Sign up" />
-          </div>
-        </form>
-      </section>
-
+      <div class="inner">
+        <section class="newsletter">
+            <form>
+              <div class="emailbox">
+                <label for="emailadress">Sign up for our newsletter</label><br />
+                <input
+                  class="emailtext"
+                  id="emailadress"
+                  type="email"
+                  size="27"
+                  maxlength="64"
+                  placeholder="Enter Email adress........."
+                  pattern=".+@example.com"
+                />
+              </div>
+              <div>
+                <input class="submit" type="submit" value="Sign up" />
+              </div>
+            </form>
+          </section>
+      </div>
       <div class="inner">
         <img class="advert" src="/img/add.png" alt="" />
       </div>
     </main>
-    <footer class="footer">
-      <div class="inner">
-        <img class="logo2" src="/img/logo.png" alt="logo" />
-        <div class="footerinfo">
-          <a class="footertext" href="#">ABOUT</a>
-          <a class="footertext" href="#">CONTACT</a>
-          <p class="footertext1">
-            For educational purpose only <br />www.HellyHansen.com
-          </p>
-        </div>
-      </div>
-    </footer>
+    <div class="inner">
+        <footer class="footer"> 
+            <img class="logo2" src="/img/logo.png" alt="logo" />
+            <div class="footerinfo">
+              <a class="footertext" href="/about.html">ABOUT</a>
+              <a class="footertext" href="/contact.html">CONTACT</a>
+              <p class="footertext1">
+                For educational purpose only <br />www.HellyHansen.com <br/>
+                <a href="https://icons8.com/icon/51782/customer">Customer icon by Icons8</a>
+              </p>
+          </div>
+        </footer>
+    </div>
   </body>
 </html>
