@@ -15,7 +15,7 @@
 body {
   background-color: #ffff;
   width: 100%;
-  margin: 0px;
+  margin-left: 0px;
 }
 
 h1 {
@@ -24,6 +24,12 @@ h1 {
   font-size: 30px;
 }
 
+h2 {
+    font-family: "Hind Guntur", sans-serif;
+    font-weight:lighter ;
+    font-size: 18px;
+    color: #FFFFFF;
+}
 
 a:link {
     color: black;
@@ -37,6 +43,7 @@ a:link {
 .inner {
   width: 480px;
   margin: 0% auto;
+  margin-left: 0px;
 }
 
 .logo {
@@ -48,7 +55,7 @@ a:link {
 }
 .nav {
     border: 1px solid red;
-    width: 100%
+    width: 500px;
 }
 
 .shop {
@@ -121,8 +128,8 @@ a:link {
   grid-template-columns: 5em 100px;
   grid-template-rows: 200px auto;
   gap: 145px;
+  margin-top: 20px;
   margin-left: 20px;
-  margin-top: 33px;
 }
 
 .flex-item {
@@ -195,16 +202,18 @@ a:link {
   transform: translate(-50%, -50%);
 }
 
-
-
-.newsletter {
+.newsletter{
   background-image: linear-gradient(to right, #1c5e69, #0b3a40);
-  width: 480px;
+  width: 500px;
   height: 170px;
   margin-top: 80px;
-  padding-top: 50px;
-  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+}
 
+.newslettertext{
+    margin-top: 20px;
+    
 }
 
 .emailbox {
@@ -212,36 +221,40 @@ a:link {
     font-style: normal;
     font-size: 18px;
     color: white;
-    margin-left: 20px;
     padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
-.emailtext {
-  border-radius: 10px;
+.email {
+  border-radius: 15px;
   box-sizing: border-box;
   border: 1px solid #ffff;
   font-family: "Mulish", sans-serif;
-  font-size: 6px;
-  width: 226px;
-  height: 23px;
-  margin-left: 20px;
+  font-size: 10px;
+  width: 280px;
+  height: 30px;
+  padding-left: 15px;
+  margin-right:10px;
+
+
 }
 
 .submit {
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: #000;
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
   font-weight: lighter;
-  font-size: 12px;
+  font-size: 10px;
   color: #ffff;
-  width: 115px;
-  height: 23px;
+  width: 130px;
+  height: 30px;
   border: none;
 }
 
 .advert {
-  width: 100%;
+  width: 500px;
 }
 
 .footer {
@@ -282,9 +295,17 @@ a:link {
         font-size: 65px;
     }
 
+    body {
+        width: 100%;
+    }
+
     .inner{
-        width: 770px;
+        width: 1080px;
         margin: 0% auto;
+    }
+
+    .nav {
+        width: 100%;
     }
 
     .logo{
@@ -303,9 +324,8 @@ a:link {
     }
 
     .herobanner{
-        max-width: 1440px;
-        height: 588px;
-            
+        display: flex;
+        justify-content: center;
     }
 
     .line{
@@ -330,5 +350,44 @@ a:link {
         height: 73px;
         font-size: 30px;
     }
+
+    .flex-container{
+        display: grid;
+        grid-template-columns: 270px 270px 270px 270px;
+        justify-content: center;
+        gap: 5px;
+        margin-left: 0px;
+    }
+
+    .flex-item{
+        width: 258px;
+        height: 428px;
+    }
+
+    .flex-item2{
+        width: 258px;
+        height: 428px;
+    }
+
+    .flex-item3{
+        width: 258px;
+        height: 428px;
+    }
+
+    .flex-item4 {
+        width: 258px;
+        height: 428px;
+        }
+
+    .subtext {
+        margin-top: 450px;
+    }
+
+    .newsletter {
+        
+    }
+    
+
+
 }
 
