@@ -16,6 +16,8 @@ body {
   background-color: #ffff;
   width: 100%;
   margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
 }
 
 h1 {
@@ -41,7 +43,6 @@ a:link {
   }
 
 .inner {
-  width: 480px;
   margin: 0% auto;
   margin-left: 0px;
 }
@@ -55,7 +56,7 @@ a:link {
 }
 .nav {
     border: 1px solid red;
-    width: 500px;
+    width: 100%;
 }
 
 .shop {
@@ -127,10 +128,11 @@ a:link {
   display: grid;
   grid-template-columns: 5em 100px;
   grid-template-rows: 200px auto;
-  gap: 145px;
+  gap: 155px;
   margin-top: 20px;
-  margin-left: 20px;
+  padding: 1.5em;
 }
+
 
 .flex-item {
   background-image: url(/img/product1.png);
@@ -202,29 +204,25 @@ a:link {
   transform: translate(-50%, -50%);
 }
 
-.newsletter{
+#grid-nl{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+
+.newsletterbkg{
   background-image: linear-gradient(to right, #1c5e69, #0b3a40);
-  width: 500px;
+  width: 100%;
   height: 170px;
-  margin-top: 80px;
-  display: flex;
-  justify-content: center;
+  margin-top: 50px;
 }
 
-.newslettertext{
-    margin-top: 20px;
-    
+.newsletterh {
+    display: flex;
+    margin-left: 30px;
+    padding-top: 40px;
 }
-
-.emailbox {
-    font-family: "Hind Guntur", sans-serif;
-    font-style: normal;
-    font-size: 18px;
-    color: white;
-    padding-top: 10px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
 
 .email {
   border-radius: 15px;
@@ -236,8 +234,7 @@ a:link {
   height: 30px;
   padding-left: 15px;
   margin-right:10px;
-
-
+  margin-left: 30px;
 }
 
 .submit {
@@ -254,13 +251,15 @@ a:link {
 }
 
 .advert {
-  width: 500px;
+  width: 100%;
+  display: flex;
 }
 
 .footer {
   width: 100%;
   height: 56px;
   margin-top: 20px;
+  display: inline-block;
 }
 
 .logo2 {
@@ -269,24 +268,28 @@ a:link {
   margin-right: 64px;
 }
 
-.footerinfo {
-  display: flex;
-  float: right;
+.footer{
+    width: 100%;
+    height: 200px;
 }
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
 
 .footertext {
   font-family: "Hind_Guntur", sans-serif;
   font-size: 8px;
   margin-right: 60px;
-  margin-top: 22px;
+  margin-top: 10px;
 }
 
 .footertext1 {
   font-family: "Hind_Guntur", sans-serif;
   font-size: 6px;
-  margin-right: 40px;
-  margin-top: 20px;
-
 }
 
 @media screen and (min-width: 768px) {
@@ -295,8 +298,9 @@ a:link {
         font-size: 65px;
     }
 
-    body {
-        width: 100%;
+    h2 {
+        font-size: 30px;
+        font-weight: lighter;
     }
 
     .inner{
@@ -383,11 +387,46 @@ a:link {
         margin-top: 450px;
     }
 
-    .newsletter {
+    .newsletterh{
+        padding-left: 130px;
+    }
+
+    .newsletterbkg{
+        width: 100%;
+        height: 350px;
+        margin-top: 320px;
+    }
+    #grid-nl{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 8em;
         
     }
+    .email {
+        height: 63px;
+        width: 448px;
+        font-size: 20px;
+    }
     
+    .submit {
+        height: 63px;
+        width: 200px;
+        font-size: 20px;
 
+    }
 
+    .advert{
+        width: 100%;
+    }
+
+    #grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 40px;
+        margin-left: 20px;
+        
+    
+    }
+  
 }
 
