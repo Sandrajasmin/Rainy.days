@@ -14,7 +14,7 @@
   <body>
     <header>
       <div class="inner">
-        <nav>
+        <nav class="nav">
           <img class="logo" src="/img/RainyDays_Logo.png" alt="logo" />
           <ul class="shop">
             <li class="shop"><a href="#">MEN</a></li>
@@ -29,7 +29,7 @@
       <section>
         <img
           class="herobanner"
-          src="/img/herobanner.png"
+          src="/img/herobanner.jpeg"
           alt="man on top of mountain"
         />
         <div class="inner">
@@ -38,9 +38,11 @@
             <p class="subline">
               Developed to push you through your comfort zone
             </p>
-            <div class="shopbuttons">
-              <div class="buttonwomens">SHOP WOMEN´S</div>
-              <div class="buttonmens">SHOP MEN´S</div>
+            <div id="shop-button">
+              <button type="button" id="button1">SHOP WOMEN'S</button>
+              <button type="button" id="button2">SHOP MEN'S</button>
+              <!--<div class="buttonwomens">SHOP WOMEN´S</div>
+              <div class="buttonmens">SHOP MEN´S</div>-->
             </div>
           </div>
       </section>
@@ -91,7 +93,8 @@
       </section>
       <div class="inner">
         <section class="newsletter">
-            <form class="emailbox"> 
+            <form> 
+                <p class="emailbox">Sign up for our newsletter</p>
                 <input
                   class="emailtext"
                   id="emailadress"
