@@ -101,6 +101,7 @@ a:link {
     color: #ffff;
     text-align: center;
     margin-right: 5px;
+    box-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.25);
 }
 
 #button2 {
@@ -111,35 +112,17 @@ a:link {
     font-family: "Hind Guntur", sans-serif;
     color: #ffff;
     text-align: center;
+    box-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.25);
 
 }
-
-/*.buttonwomens {
-  width: 217px;
-  height: 33px;
-  background-image: linear-gradient(to right, #1c5e69, #0b3a40);
-  font-family: "Hind Guntur", sans-serif;
-  font-weight: lighter;
-  color: #ffff;
-  text-align: center;
-  padding-top: 9px;
-  margin-right: 5px;
-}
-.buttonmens {
-  width: 217px;
-  height: 33px;
-  font-weight: lighter;
-  background-image: linear-gradient(to right, #1c5e69, #0b3a40);
-  font-family: "Hind Guntur", sans-serif;
-  color: #ffff;
-  text-align: center;
-  padding-top: 9px;
-}
-*/
 
 .flex-container {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 5em 100px;
+  grid-template-rows: 200px auto;
+  gap: 145px;
+  margin-left: 20px;
+  margin-top: 33px;
 }
 
 .flex-item {
@@ -150,30 +133,8 @@ a:link {
   height: 279px;
   position: relative;
   opacity: 0.8;
-  margin-top: 33px;
-  margin-right: 10px;
 }
 
-.text {
-  color: #ffff;
-  font-family: "Hind Guntur", sans-serif;
-  font-size: 20px;
-  font-weight: lighter;
-  letter-spacing: 17px;
-  position: absolute;
-  top: 70%;
-  left: 55%;
-  transform: translate(-50%, -50%);
-}
-
-.subtext {
-  width: 217px;
-  font-family: "Mulish", sans-serif;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 300px;
-  
-}
 
 .flex-item2 {
   background-image: url(/img/product2.png);
@@ -182,13 +143,6 @@ a:link {
   height: 279px;
   position: relative;
   opacity: 0.8;
-  margin-top: 33px;
-}
-
-.flex-container2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 60px;
 }
 
 .flex-item3 {
@@ -199,8 +153,6 @@ a:link {
     height: 279px;
     position: relative;
     opacity: 0.8;
-    margin-top: 33px;
-    margin-right: 10px;
 }
 
 .flex-item4 {
@@ -211,10 +163,27 @@ a:link {
     height: 279px;
     position: relative;
     opacity: 0.8;
-    margin-top: 33px;
-    margin-right: 10px;
 }
-
+.text {
+    color: #ffff;
+    font-family: "Hind Guntur", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 17px;
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .subtext {
+    width: 217px;
+    font-family: "Mulish", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 300px;
+    
+  }
 .text2 {
   color: #ffff;
   font-family: "Hind Guntur", sans-serif;
@@ -276,7 +245,7 @@ a:link {
 }
 
 .footer {
-  width: 480px;
+  width: 100%;
   height: 56px;
   margin-top: 20px;
 }
@@ -307,7 +276,7 @@ a:link {
 
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
     
     h1{
         font-size: 65px;
@@ -330,13 +299,13 @@ a:link {
     }
 
     .icons {
-        FIIIIIIIIIIIIXXXXXXXXX
+        
     }
 
     .herobanner{
         max-width: 1440px;
         height: 588px;
-    
+            
     }
 
     .line{
@@ -356,14 +325,10 @@ a:link {
         height: 73px;
         font-size: 30px;
     }
-    #button{
+    #button2{
         width: 317px;
         height: 73px;
         font-size: 30px;
     }
-
-
-
-
 }
 
