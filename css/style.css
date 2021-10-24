@@ -47,16 +47,17 @@ a:link {
   margin-left: 0px;
 }
 
+#navitation{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
 .logo {
   width: 75px;
   height: 40px;
   padding-bottom: 0px;
   padding-left: 20px;
   padding-top: 20px;
-}
-.nav {
-    border: 1px solid red;
-    width: 100%;
 }
 
 .shop {
@@ -270,7 +271,6 @@ a:link {
 
 .footer{
     width: 100%;
-    height: 200px;
 }
 
 #grid {
@@ -312,18 +312,19 @@ a:link {
         width: 100%;
     }
 
+
     .logo{
-        margin-left: 20px;
+        margin-left: 40px;
     
     }
-
     .shop {
         font-size: 16px;
-        
-        
+        padding-left: 120px;
     }
 
-    .icons {
+    .icon {
+        float: right;
+        padding-top: 45px;
         
     }
 
@@ -419,11 +420,15 @@ a:link {
         width: 100%;
     }
 
+    .footer{
+        margin-top: 40px;
+    }
+
     #grid{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 40px;
         margin-left: 20px;
+        
         
     
     }
