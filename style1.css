@@ -1,0 +1,144 @@
+@font-face {
+	font-family: "Robot Condensed";
+	src: url(/fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf)
+		format(ttf);
+}
+
+@font-face {
+	font-family: "Hind Guntur";
+	src: url(/fonts/Hind_Guntur/HindGuntur-Regular.ttf)
+		format(ttf);
+}
+@font-face {
+	font-family: "Mulish";
+	src: url(/fonts/Mulish/Mulish-VariableFont_wght.ttf)
+		format(ttf);
+}
+
+body {
+	background-color: #ffff;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+h1 {
+	font-family: "Roboto Condensed", sans-serif;
+	font-style: bold;
+	font-size: 30px;
+}
+
+h2 {
+	font-family: "Hind Guntur", sans-serif;
+	font-weight: lighter;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #0b3a40;
+}
+
+.inner {
+	margin: 0% auto;
+	margin-left: 0px;
+}
+
+.header {
+    background: rgb(84, 32, 103);
+    background: linear-gradient(
+      0deg,
+      rgba(84, 32, 103, 1) 0%,
+      rgba(158, 29, 203, 1) 60%
+    );
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+  }
+  
+  .header ul a {
+    font-family: 'Raleway', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header ul a:hover {
+    color: black;
+  }
+  
+  .header .logo {
+    float: left;
+  }
+  
+  .img-logo {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  .header .menu-icon {
+    padding: 28px 20px;
+    position: relative;
+    float: right;
+  }
+  
+  .header .menu-icon .nav-icon {
+    background: white;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+  }
+  
+  .header .menu-icon .nav-icon:before {
+    background: white;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 5px;
+  }
+  
+  .header .menu-icon .nav-icon:after {
+    background: white;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -5px;
+  }
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }

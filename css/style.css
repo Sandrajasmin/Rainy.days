@@ -56,8 +56,8 @@ a:visited {
 }
 
 .logo {
-	width: 75px;
-	height: 40px;
+	width: 100px;
+	height: 50px;
 	padding-bottom: 0px;
 	padding-left: 20px;
 	padding-top: 20px;
@@ -68,7 +68,7 @@ a:visited {
 	list-style-type: none;
 	padding-bottom: 12px;
 	padding-left: 40px;
-	padding-right: 36px;
+	padding-right: 25px;
 	font-family: "Hind Guntur", sans-serif;
 	font-size: 12px;
 }
